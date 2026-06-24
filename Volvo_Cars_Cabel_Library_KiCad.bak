@@ -4926,6 +4926,633 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Box__Ext._Power_(DC-prop)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0.762 -1.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Box__Ext._Power_(DC-prop)_0_1"
+			(circle
+				(center -9.75 27)
+				(radius 5)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 255 255 255 1)
+				)
+			)
+			(circle
+				(center -9.75 27)
+				(radius 8)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start -0.5 36)
+				(end 0 18)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5 35) (xy -10 35) (xy -10 19) (xy -0.5 19) (xy -0.5 36)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 255 255 255 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start 0 54)
+				(end 75 0)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(bezier
+				(pts
+					(xy 10.5 47.5) (xy 10.5 49) (xy 12 49) (xy 12 49)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.5 5.5) (xy 10.5 48)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.5 0)
+				(end 20.5 -1.25)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 194 194 194 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12 49) (xy 64 49)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 12 4) (xy 10.5 4) (xy 10.5 5.5) (xy 10.5 5.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 15.5 44.25)
+				(radius 1.5)
+				(stroke
+					(width 3)
+					(type default)
+					(color 255 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 255 0 0 1)
+				)
+			)
+			(circle
+				(center 15.5 44.25)
+				(radius 3.5)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 40.5 34.79)
+				(end 51.75 28.79)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 40.5 21.5)
+				(end 51.75 15.5)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 41.25 34.04)
+				(end 45.75 29.54)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 41.25 20.75)
+				(end 45.75 16.25)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 42 33.75) (xy 42 29.75)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 42 20.5) (xy 42 16.5)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 42.5 33.75) (xy 42.5 29.75)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 42.5 20.5) (xy 42.5 16.5)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 43 33.75) (xy 43 29.75)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 43 20.5) (xy 43 16.5)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 43.5 33.75) (xy 43.5 29.75)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 43.5 20.5) (xy 43.5 16.5)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 44 33.75) (xy 44 29.75)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 44 20.5) (xy 44 16.5)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 44.5 33.75) (xy 44.5 29.75)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 44.5 20.5) (xy 44.5 16.5)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 45 33.75) (xy 45 29.75)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 45 20.5) (xy 45 16.5)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 64 49) (xy 65.5 49) (xy 65.5 47.5) (xy 65.5 47.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 64 4) (xy 12 4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 65.5 47.5) (xy 65.5 5.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 65.5 5.5) (xy 65.5 4) (xy 64 4) (xy 64 4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 75 40.25) (xy 81.25 45.75) (xy 87 40.25) (xy 87 40.25)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start 75 40.25)
+				(end 87 13.25)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(bezier
+				(pts
+					(xy 87 13.25) (xy 80.75 7.75) (xy 75 13.25) (xy 75 13.25)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+		)
+		(symbol "Box__Ext._Power_(DC-prop)_1_1"
+			(text "Eth. "
+				(at 25.654 18.034 0)
+				(effects
+					(font
+						(size 3 3)
+						(thickness 0.6)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Act"
+				(at 35.56 18.288 0)
+				(effects
+					(font
+						(size 3 3)
+						(thickness 0.6)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "ON"
+				(at 36.576 31.496 0)
+				(effects
+					(font
+						(size 3 3)
+						(thickness 0.6)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Ext. Power"
+				(at 44.196 43.688 0)
+				(effects
+					(font
+						(size 3.5 3.5)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "OFF"
+				(at 56.388 31.496 0)
+				(effects
+					(font
+						(size 3 3)
+						(thickness 0.6)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Ext"
+				(at 56.388 18.288 0)
+				(effects
+					(font
+						(size 3 3)
+						(thickness 0.6)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin input line
+				(at 88.9 26.67 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "D-sub_15"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6514,329 +7141,6 @@
 						(font
 							(size 1.27 1.27)
 						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "Ext._Power_(DC-prop)"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "J"
-			(at 0.762 -1.524 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "Ext._Power_(DC-prop)_0_1"
-			(circle
-				(center -9.75 27)
-				(radius 5)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -9.75 27)
-				(radius 8)
-				(stroke
-					(width 0)
-					(type default)
-					(color 132 132 132 1)
-				)
-				(fill
-					(type color)
-					(color 132 132 132 1)
-				)
-			)
-			(rectangle
-				(start -0.5 36)
-				(end 0 18)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type color)
-					(color 132 132 132 1)
-				)
-			)
-			(polyline
-				(pts
-					(xy -0.5 35) (xy -10 35) (xy -10 19) (xy -0.5 19) (xy -0.5 36)
-				)
-				(stroke
-					(width 0)
-					(type default)
-					(color 132 132 132 1)
-				)
-				(fill
-					(type color)
-					(color 132 132 132 1)
-				)
-			)
-			(rectangle
-				(start 0 54)
-				(end 75 0)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type color)
-					(color 132 132 132 1)
-				)
-			)
-			(rectangle
-				(start 10.5 49)
-				(end 65.5 4)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type color)
-					(color 132 132 132 1)
-				)
-			)
-			(rectangle
-				(start 10.5 0)
-				(end 20.5 -1.25)
-				(stroke
-					(width 0)
-					(type default)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type color)
-					(color 194 194 194 1)
-				)
-			)
-			(circle
-				(center 15.5 44.25)
-				(radius 2.5)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type color)
-					(color 255 0 0 1)
-				)
-			)
-			(circle
-				(center 15.5 44.25)
-				(radius 3.5)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 40.5 34.79)
-				(end 51.75 28.79)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 40.5 21.5)
-				(end 51.75 15.5)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 41 34.04)
-				(end 45.5 29.54)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(rectangle
-				(start 41 20.75)
-				(end 45.5 16.25)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(bezier
-				(pts
-					(xy 75 40.25) (xy 81.25 45.75) (xy 87 40.25) (xy 87 40.25)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type color)
-					(color 132 132 132 1)
-				)
-			)
-			(rectangle
-				(start 75 40.25)
-				(end 87 13.25)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type color)
-					(color 132 132 132 1)
-				)
-			)
-			(bezier
-				(pts
-					(xy 87 13.25) (xy 80.75 7.75) (xy 75 13.25) (xy 75 13.25)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type color)
-					(color 132 132 132 1)
-				)
-			)
-		)
-		(symbol "Ext._Power_(DC-prop)_1_1"
-			(text "Eth. "
-				(at 25.654 18.034 0)
-				(effects
-					(font
-						(size 3 3)
-						(thickness 0.6)
-						(bold yes)
-						(color 0 0 0 1)
-					)
-				)
-			)
-			(text "Act"
-				(at 35.56 18.288 0)
-				(effects
-					(font
-						(size 3 3)
-						(thickness 0.6)
-						(bold yes)
-						(color 0 0 0 1)
-					)
-				)
-			)
-			(text "ON"
-				(at 36.576 31.496 0)
-				(effects
-					(font
-						(size 3 3)
-						(thickness 0.6)
-						(bold yes)
-						(color 0 0 0 1)
-					)
-				)
-			)
-			(text "Ext. Power"
-				(at 44.196 43.688 0)
-				(effects
-					(font
-						(size 3 3)
-						(thickness 0.4)
-						(bold yes)
-						(color 0 0 0 1)
-					)
-				)
-			)
-			(text "OFF"
-				(at 56.388 31.496 0)
-				(effects
-					(font
-						(size 3 3)
-						(thickness 0.6)
-						(bold yes)
-						(color 0 0 0 1)
-					)
-				)
-			)
-			(text "Ext"
-				(at 56.388 18.288 0)
-				(effects
-					(font
-						(size 3 3)
-						(thickness 0.6)
-						(bold yes)
-						(color 0 0 0 1)
 					)
 				)
 			)
@@ -13621,7 +13925,7 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 72 72 72 1)
+					(color 0 0 0 1)
 				)
 				(fill
 					(type color)
@@ -13634,7 +13938,7 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 0 0 0 1)
+					(color 72 72 72 1)
 				)
 				(fill
 					(type color)
@@ -13916,7 +14220,7 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 72 72 72 1)
+					(color 0 0 0 1)
 				)
 				(fill
 					(type color)
@@ -13929,7 +14233,7 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 0 0 0 1)
+					(color 72 72 72 1)
 				)
 				(fill
 					(type color)
@@ -14729,7 +15033,7 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 0 0 0 1)
+					(color 72 72 72 1)
 				)
 				(fill
 					(type color)
@@ -14742,7 +15046,7 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 72 72 72 1)
+					(color 0 0 0 1)
 				)
 				(fill
 					(type color)

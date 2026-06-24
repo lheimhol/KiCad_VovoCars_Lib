@@ -4995,7 +4995,8 @@
 					(color 0 0 0 1)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 255 255 255 1)
 				)
 			)
 			(circle
@@ -5031,7 +5032,7 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 132 132 132 1)
+					(color 255 255 255 1)
 				)
 				(fill
 					(type color)
@@ -5051,16 +5052,30 @@
 					(color 132 132 132 1)
 				)
 			)
-			(rectangle
-				(start 10.5 49)
-				(end 65.5 4)
+			(bezier
+				(pts
+					(xy 10.5 47.5) (xy 10.5 49) (xy 12 49) (xy 12 49)
+				)
 				(stroke
 					(width 0)
 					(type default)
+					(color 0 0 0 1)
 				)
 				(fill
-					(type color)
-					(color 132 132 132 1)
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.5 5.5) (xy 10.5 48)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(rectangle
@@ -5076,12 +5091,39 @@
 					(color 194 194 194 1)
 				)
 			)
-			(circle
-				(center 15.5 44.25)
-				(radius 2.5)
+			(polyline
+				(pts
+					(xy 12 49) (xy 64 49)
+				)
 				(stroke
 					(width 0)
 					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 12 4) (xy 10.5 4) (xy 10.5 5.5) (xy 10.5 5.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 15.5 44.25)
+				(radius 1.5)
+				(stroke
+					(width 3)
+					(type default)
+					(color 255 0 0 1)
 				)
 				(fill
 					(type color)
@@ -5094,6 +5136,7 @@
 				(stroke
 					(width 0)
 					(type default)
+					(color 0 0 0 1)
 				)
 				(fill
 					(type none)
@@ -5103,8 +5146,9 @@
 				(start 40.5 34.79)
 				(end 51.75 28.79)
 				(stroke
-					(width 0)
+					(width 0.5)
 					(type default)
+					(color 0 0 0 1)
 				)
 				(fill
 					(type none)
@@ -5114,30 +5158,267 @@
 				(start 40.5 21.5)
 				(end 51.75 15.5)
 				(stroke
-					(width 0)
+					(width 0.5)
 					(type default)
+					(color 0 0 0 1)
 				)
 				(fill
 					(type none)
 				)
 			)
 			(rectangle
-				(start 41 34.04)
-				(end 45.5 29.54)
+				(start 41.25 34.04)
+				(end 45.75 29.54)
 				(stroke
-					(width 0)
+					(width 0.5)
 					(type default)
+					(color 0 0 0 1)
 				)
 				(fill
 					(type none)
 				)
 			)
 			(rectangle
-				(start 41 20.75)
-				(end 45.5 16.25)
+				(start 41.25 20.75)
+				(end 45.75 16.25)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 42 33.75) (xy 42 29.75)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 42 20.5) (xy 42 16.5)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 42.5 33.75) (xy 42.5 29.75)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 42.5 20.5) (xy 42.5 16.5)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 43 33.75) (xy 43 29.75)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 43 20.5) (xy 43 16.5)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 43.5 33.75) (xy 43.5 29.75)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 43.5 20.5) (xy 43.5 16.5)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 44 33.75) (xy 44 29.75)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 44 20.5) (xy 44 16.5)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 44.5 33.75) (xy 44.5 29.75)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 44.5 20.5) (xy 44.5 16.5)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 45 33.75) (xy 45 29.75)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 45 20.5) (xy 45 16.5)
+				)
+				(stroke
+					(width 0.25)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 64 49) (xy 65.5 49) (xy 65.5 47.5) (xy 65.5 47.5)
+				)
 				(stroke
 					(width 0)
 					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 64 4) (xy 12 4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 65.5 47.5) (xy 65.5 5.5)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 65.5 5.5) (xy 65.5 4) (xy 64 4) (xy 64 4)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
 				)
 				(fill
 					(type none)
@@ -5223,8 +5504,7 @@
 				(at 44.196 43.688 0)
 				(effects
 					(font
-						(size 3 3)
-						(thickness 0.4)
+						(size 3.5 3.5)
 						(bold yes)
 						(color 0 0 0 1)
 					)
@@ -5249,6 +5529,24 @@
 						(thickness 0.6)
 						(bold yes)
 						(color 0 0 0 1)
+					)
+				)
+			)
+			(pin input line
+				(at 88.9 26.67 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -13627,7 +13925,7 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 0 0 0 1)
+					(color 72 72 72 1)
 				)
 				(fill
 					(type color)
@@ -13640,7 +13938,7 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 72 72 72 1)
+					(color 0 0 0 1)
 				)
 				(fill
 					(type color)
