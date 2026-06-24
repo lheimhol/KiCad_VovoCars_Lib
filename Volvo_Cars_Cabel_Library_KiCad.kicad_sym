@@ -4926,6 +4926,335 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Box__Ext._Power_(DC-prop)"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0.762 -1.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Box__Ext._Power_(DC-prop)_0_1"
+			(circle
+				(center -9.75 27)
+				(radius 5)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -9.75 27)
+				(radius 8)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start -0.5 36)
+				(end 0 18)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.5 35) (xy -10 35) (xy -10 19) (xy -0.5 19) (xy -0.5 36)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 132 132 132 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start 0 54)
+				(end 75 0)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start 10.5 49)
+				(end 65.5 4)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start 10.5 0)
+				(end 20.5 -1.25)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 194 194 194 1)
+				)
+			)
+			(circle
+				(center 15.5 44.25)
+				(radius 2.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type color)
+					(color 255 0 0 1)
+				)
+			)
+			(circle
+				(center 15.5 44.25)
+				(radius 3.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 40.5 34.79)
+				(end 51.75 28.79)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 40.5 21.5)
+				(end 51.75 15.5)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 41 34.04)
+				(end 45.5 29.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 41 20.75)
+				(end 45.5 16.25)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(bezier
+				(pts
+					(xy 75 40.25) (xy 81.25 45.75) (xy 87 40.25) (xy 87 40.25)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start 75 40.25)
+				(end 87 13.25)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(bezier
+				(pts
+					(xy 87 13.25) (xy 80.75 7.75) (xy 75 13.25) (xy 75 13.25)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+		)
+		(symbol "Box__Ext._Power_(DC-prop)_1_1"
+			(text "Eth. "
+				(at 25.654 18.034 0)
+				(effects
+					(font
+						(size 3 3)
+						(thickness 0.6)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Act"
+				(at 35.56 18.288 0)
+				(effects
+					(font
+						(size 3 3)
+						(thickness 0.6)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "ON"
+				(at 36.576 31.496 0)
+				(effects
+					(font
+						(size 3 3)
+						(thickness 0.6)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Ext. Power"
+				(at 44.196 43.688 0)
+				(effects
+					(font
+						(size 3 3)
+						(thickness 0.4)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "OFF"
+				(at 56.388 31.496 0)
+				(effects
+					(font
+						(size 3 3)
+						(thickness 0.6)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+			(text "Ext"
+				(at 56.388 18.288 0)
+				(effects
+					(font
+						(size 3 3)
+						(thickness 0.6)
+						(bold yes)
+						(color 0 0 0 1)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "D-sub_15"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13298,7 +13627,7 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 72 72 72 1)
+					(color 0 0 0 1)
 				)
 				(fill
 					(type color)
@@ -13311,7 +13640,7 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 0 0 0 1)
+					(color 72 72 72 1)
 				)
 				(fill
 					(type color)
@@ -13593,7 +13922,7 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 72 72 72 1)
+					(color 0 0 0 1)
 				)
 				(fill
 					(type color)
@@ -13606,7 +13935,7 @@
 				(stroke
 					(width 0)
 					(type default)
-					(color 0 0 0 1)
+					(color 72 72 72 1)
 				)
 				(fill
 					(type color)
@@ -13775,6 +14104,537 @@
 			)
 		)
 		(symbol "OBD_Blue_1_1"
+			(pin input line
+				(at 83.82 24.13 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "OBD_Car_Gray"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 1.524 5.334 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "OBD_Car_Gray_0_1"
+			(rectangle
+				(start 2.25 32.73)
+				(end 3 26.73)
+				(stroke
+					(width 0)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3 32.73)
+				(end 8 26.73)
+				(stroke
+					(width 0)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 8 32.73)
+				(end 8.75 26.73)
+				(stroke
+					(width 0)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 16 67.33) (xy 16.75 68.08) (xy 18.5 68.08) (xy 19.25 67.33) (xy 16 67.33)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 132 132 132 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start 16 67.25)
+				(end 19.25 0.75)
+				(stroke
+					(width 0)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 16 0.83) (xy 16.75 0.08) (xy 18.5 0.08) (xy 19.25 0.83) (xy 16 0.83)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 132 132 132 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(bezier
+				(pts
+					(xy 16 0.83) (xy 16 0.08) (xy 16.75 0.08) (xy 16.75 0.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 132 132 132 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(bezier
+				(pts
+					(xy 16.75 68.08) (xy 16 68.08) (xy 16 67.33) (xy 16 67.33)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 132 132 132 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(bezier
+				(pts
+					(xy 18.5 0.08) (xy 19.25 0.08) (xy 19.25 0.83) (xy 19.25 0.83)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 132 132 132 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(bezier
+				(pts
+					(xy 19.25 67.33) (xy 19.25 68.08) (xy 18.5 68.08) (xy 18.5 68.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 132 132 132 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+		)
+		(symbol "OBD_Car_Gray_1_1"
+			(rectangle
+				(start 0 48.31)
+				(end 16 11.31)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(rectangle
+				(start 19.25 48.23)
+				(end 21.5 11.23)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(pin input line
+				(at 22.86 30.48 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "OBD_Gray"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0.762 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "OBD_Gray_0_1"
+			(rectangle
+				(start 16 48)
+				(end 46.25 0)
+				(stroke
+					(width 0)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(rectangle
+				(start 16 48)
+				(end 46.25 0)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 46.25 48) (xy 69 35.25) (xy 69 13) (xy 46.25 0) (xy 46.25 48)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 60.25 31.75) (xy 60.25 16)
+				)
+				(stroke
+					(width 1)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 63.5 29.625) (xy 63.5 17.875)
+				)
+				(stroke
+					(width 1)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 66.75 27.75) (xy 66.75 19.75)
+				)
+				(stroke
+					(width 1)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 69 35.25) (xy 70 34) (xy 70 14) (xy 69 13) (xy 69 35.25)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(bezier
+				(pts
+					(xy 69 35.25) (xy 70 34.75) (xy 70 34) (xy 70 34)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(bezier
+				(pts
+					(xy 69 13) (xy 70 13.5) (xy 70 14) (xy 70 14)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(rectangle
+				(start 70 30.25)
+				(end 81.5 17.25)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 72.5 27.75) (xy 72.5 19.75)
+				)
+				(stroke
+					(width 1)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 75.75 27.75) (xy 75.75 24.75)
+				)
+				(stroke
+					(width 1)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 75.75 22.75) (xy 75.75 19.75)
+				)
+				(stroke
+					(width 1)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 79 27.75) (xy 79 19.75)
+				)
+				(stroke
+					(width 1)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+		)
+		(symbol "OBD_Gray_1_1"
+			(rectangle
+				(start 0 44.5)
+				(end 16 3.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type color)
+					(color 72 72 72 1)
+				)
+			)
 			(pin input line
 				(at 83.82 24.13 180)
 				(length 2.54)
@@ -14059,6 +14919,297 @@
 		(symbol "OBD_Red_1_1"
 			(pin input line
 				(at 83.82 24.13 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RJ45_Black_Socket"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0.508 -1.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RJ45_Black_Socket_0_1"
+			(rectangle
+				(start 13.25 10.75)
+				(end 25 1.25)
+				(stroke
+					(width 0)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 16 10) (xy 16 2)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17 10.5) (xy 17 9.375)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17 2.5625) (xy 17 1.4375)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 18 10) (xy 18 2)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 19 10.5) (xy 19 9.375)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 19 2.5624) (xy 19 1.4374)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 20 10) (xy 20 2)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 21 10.5) (xy 21 9.375)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 21 2.5624) (xy 21 1.4374)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 22 10) (xy 22 2)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 23 10.5) (xy 23 9.375)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 23 2.5625) (xy 23 1.4375)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 24 10) (xy 24 2)
+				)
+				(stroke
+					(width 0.5)
+					(type default)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "RJ45_Black_Socket_1_1"
+			(rectangle
+				(start 0 11.5)
+				(end 0.5 0.5)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(rectangle
+				(start 0.5 12)
+				(end 13.25 0)
+				(stroke
+					(width 0)
+					(type solid)
+					(color 72 72 72 1)
+				)
+				(fill
+					(type color)
+					(color 0 0 0 1)
+				)
+			)
+			(pin input line
+				(at 26.67 6.35 180)
 				(length 2.54)
 				(name ""
 					(effects
